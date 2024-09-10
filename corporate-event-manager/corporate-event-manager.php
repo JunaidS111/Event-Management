@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/JunaidS111
  * Description: A plugin for managing corporate-level events.
  * Version: 1.0.0
- * Author: Junaid Shaikh
+ * Author: Junaid Shaikh Web Developer
  * Author URI: https://junaids111.github.io/
  * Text Domain: corporate-event-manager
  */

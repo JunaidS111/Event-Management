@@ -19,7 +19,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/event-functions.php';
 
 // Activation and Deactivation Hooks
 function cem_activate() {
-    // Trigger functions on activation
+    // Trigger functions on activation of the plugin.
     flush_rewrite_rules();
 }
 register_activation_hook(__FILE__, 'cem_activate');

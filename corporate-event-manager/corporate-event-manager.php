@@ -25,7 +25,7 @@ function cem_activate() {
 register_activation_hook(__FILE__, 'cem_activate');
 
 function cem_deactivate() {
-    // Clean up on deactivation.
+    // Clean up on deactivation of the plugin.
     flush_rewrite_rules();
 }
 register_deactivation_hook(__FILE__, 'cem_deactivate');

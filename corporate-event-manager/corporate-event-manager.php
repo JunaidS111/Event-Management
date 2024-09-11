@@ -18,7 +18,7 @@ if(!defined('ABSPATH')){
 }
 
 // Load plugin files
-require_once plugin_dir_path(__FILE__) . 'includes/event-cpt.php';
+
 require_once plugin_dir_path(__FILE__) . 'includes/event-functions.php';
 
 // Activation and Deactivation Hooks

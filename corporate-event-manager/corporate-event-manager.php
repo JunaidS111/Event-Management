@@ -21,6 +21,7 @@ if(!defined('ABSPATH')){
 require_once plugin_dir_path(__FILE__) . 'includes/event-cpt.php';
 require_once plugin_dir_path(__FILE__) . 'includes/event-functions.php';
 require_once plugin_dir_path(__FILE__) . 'includes/event-db.php';
+require_once plugin_dir_path(__FILE__) . 'includes/event-privacy.php';
 
 // Activation and Deactivation Hooks
 function cem_activate() {

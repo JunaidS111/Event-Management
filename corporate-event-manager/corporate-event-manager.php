@@ -34,6 +34,6 @@ register_activation_hook(__FILE__, 'cem_activate'); //activate the plugin
 
 function cem_deactivate() {
     // Clean up on deactivation of the plugin.
-    flush_rewrite_rules();
+    flush_rewrite_rules(); // Once deactivate all data clear
 }
 register_deactivation_hook(__FILE__, 'cem_deactivate');

@@ -30,7 +30,7 @@ function cem_activate() {
     // Trigger functions on activation of the plugin.
     flush_rewrite_rules();
 }
-register_activation_hook(__FILE__, 'cem_activate');
+register_activation_hook(__FILE__, 'cem_activate'); //activate the plugin
 
 function cem_deactivate() {
     // Clean up on deactivation of the plugin.

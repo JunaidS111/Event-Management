@@ -22,7 +22,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/event-cpt.php';
 require_once plugin_dir_path(__FILE__) . 'includes/event-functions.php';
 require_once plugin_dir_path(__FILE__) . 'includes/event-db.php';
 //require_once plugin_dir_path(__FILE__) . 'includes/event-privacy.php';
-require_once plugin_dir_path(__FILE__) . 'includes/event-desk.php';
+//require_once plugin_dir_path(__FILE__) . 'includes/event-desk.php';
 require_once plugin_dir_path(__FILE__) . 'includes/event-manage.php';
 
 // Activation and Deactivation Hooks

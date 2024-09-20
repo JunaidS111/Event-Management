@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
 }
 
 if(!defined('ABSPATH')){
-    //exit; //It will exit full process directly
+    //exit; 
 }
 
 // Load plugin files

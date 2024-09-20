@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Corporate Event Manager
+ * Plugin Name: Corporate Event Manager by Junaid
  * Plugin URI: https://github.com/JunaidS111
  * Description: A plugin for managing corporate-level events.
  * Version: 1.0.0

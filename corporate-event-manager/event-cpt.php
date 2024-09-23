@@ -1,6 +1,6 @@
 <?php
 // Register Custom Post Type for Events
-
+function cem_register_event_cpt() {
     $labels = array(
         'name'                  => _x('Events', 'Post Type General Name', 'corporate-event-manager'),
         'singular_name'         => _x('Event', 'Post Type Singular Name', 'corporate-event-manager'),

@@ -11,7 +11,7 @@ function cem_register_event_cpt() {
         'new_item'              => __('New Event', 'corporate-event-manager'),
     );
 
-    $args = array(
+    //$args = array(
         'label'                 => __('Event', 'corporate-event-manager'),
         'labels'                => $labels,
         'supports'              => array('title', 'editor', 'thumbnail', 'excerpt'),

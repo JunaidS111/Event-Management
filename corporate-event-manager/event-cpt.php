@@ -8,7 +8,7 @@ function cem_register_event_cpt() {
         'all_items'             => __('All Events', 'corporate-event-manager'),
         'add_new_item'          => __('Add New Event', 'corporate-event-manager'),
         'edit_item'             => __('Edit Event', 'corporate-event-manager'),
-       // 'new_item'              => __('New Event', 'corporate-event-manager'),
+        'new_item'              => __('New Event', 'corporate-event-manager'),
     );
 
     $args = array(
